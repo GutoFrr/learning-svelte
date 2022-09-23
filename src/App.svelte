@@ -1,5 +1,6 @@
 <script>
   import { Router, Route, Link } from 'svelte-navigator'
+  import Events from './components/Events.svelte'
   import Logic from './components/Logic.svelte'
   import Props from './components/Props.svelte'
   import Reactivity from './components/Reactivity.svelte'
@@ -12,6 +13,7 @@
     <Link to="reactivity">Reactivity</Link>
     <Link to="props">Props</Link>
     <Link to="logic">Logic</Link>
+    <Link to="events">Events</Link>
   </nav>
 
   <main>
@@ -35,6 +37,11 @@
       <Route path="logic">
         <h1 class="title">Logic</h1>
         <Logic />
+      </Route>
+
+      <Route path="events">
+        <h1 class="title">Events</h1>
+        <Events />
       </Route>
     </div>
   </main>

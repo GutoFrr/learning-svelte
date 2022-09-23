@@ -19,7 +19,6 @@
 </script>
 
 <main>
-  <h3 class="section-title">Updating Array Dynamically</h3>
   <p>{numbers.join(' + ')} = {sum}</p>
   <button on:click={addNumber} class="btn"> add a number </button>
   <button on:click={resetCount} class="btn"> reset count </button>
