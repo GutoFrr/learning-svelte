@@ -1,5 +1,6 @@
 <script>
   import { Router, Route, Link } from 'svelte-navigator'
+  import Props from './components/Props.svelte'
   import Reactivity from './components/Reactivity.svelte'
 </script>
 
@@ -12,18 +13,22 @@
   </nav>
 
   <main>
-    <div class="px-10 py-6">
+    <div class="px-10 py-3">
       <Route>
-        <h1 class="text-4xl font-bold">
+        <h1 class="title">
           Hello World by <span class="text-svelte">Svelte!</span>
         </h1>
       </Route>
 
       <Route path="reactivity">
+        <h1 class="title">Reactivity</h1>
         <Reactivity />
       </Route>
 
-      <Route path="props" />
+      <Route path="props">
+        <h1 class="title">Props</h1>
+        <Props />
+      </Route>
     </div>
   </main>
 </Router>

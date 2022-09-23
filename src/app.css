@@ -11,5 +11,9 @@ body {
 }
 
 .title {
-  @apply text-3xl font-bold;
+  @apply text-4xl font-bold mb-1;
+}
+
+.section-title {
+  @apply text-2xl font-bold;
 }

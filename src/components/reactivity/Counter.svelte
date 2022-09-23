@@ -25,7 +25,7 @@
 </script>
 
 <main>
-  <h2 class="title">Counter</h2>
+  <h3 class="section-title">Counter</h3>
   <button on:click={incrementCount} class="btn">
     count is {count}
   </button>
