@@ -15,6 +15,7 @@
   $: if (count >= 10) {
     alert('count is dangerously high!')
     count = 9
+    resetCount()
   }
 
   const resetCount = () => {
