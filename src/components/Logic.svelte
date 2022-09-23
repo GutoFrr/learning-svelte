@@ -1,4 +1,5 @@
 <script>
+  import AwaitBlocks from './logic/AwaitBlocks.svelte'
   import EachBlocks from './logic/EachBlocks.svelte'
   import ElseIfBlocks from './logic/ElseIfBlocks.svelte'
   import IfBlock from './logic/IfBlocks.svelte'
@@ -21,5 +22,9 @@
   <div>
     <h2 class="section-title">Keyed Each blocks</h2>
     <KeyedEachBlocks />
+  </div>
+  <div>
+    <h2 class="section-title">Await blocks</h2>
+    <AwaitBlocks />
   </div>
 </main>
