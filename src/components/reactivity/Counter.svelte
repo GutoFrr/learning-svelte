@@ -1,5 +1,6 @@
 <script>
   let count = 0
+  // this declaration "$" keeps variables in sync with each other.
   $: doubled = count * 2
 
   const incrementCount = () => {
