@@ -7,6 +7,15 @@
     count += 1
   }
 
+  $: {
+    console.log(`the count is ${count}`)
+  }
+
+  $: if (count >= 10) {
+    alert('count is dangerously high!')
+    count = 9
+  }
+
   const resetCount = () => {
     count = 0
   }
