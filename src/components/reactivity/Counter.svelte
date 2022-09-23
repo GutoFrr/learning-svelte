@@ -7,6 +7,7 @@
     count += 1
   }
 
+  // you can also run statements reactively.
   $: {
     console.log(`the count is ${count}`)
   }
@@ -18,6 +19,7 @@
 
   const resetCount = () => {
     count = 0
+    console.clear()
   }
 </script>
 
