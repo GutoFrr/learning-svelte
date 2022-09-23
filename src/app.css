@@ -17,3 +17,11 @@ body {
 .section-title {
   @apply text-2xl font-bold;
 }
+
+a {
+  @apply underline text-svelte;
+}
+
+a:hover {
+  @apply brightness-90;
+}

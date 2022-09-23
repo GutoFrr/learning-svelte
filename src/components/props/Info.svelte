@@ -10,13 +10,3 @@
   <a href="https://www.npmjs.com/package/{name}">npm</a>
   and <a href={website}>learn more here.</a>
 </p>
-
-<style>
-  a {
-    @apply underline text-svelte;
-  }
-
-  a:hover {
-    @apply brightness-90;
-  }
-</style>
