@@ -1,5 +1,6 @@
 <script>
   import CheckboxInputs from './bindings/CheckboxInputs.svelte'
+  import GroupInputs from './bindings/GroupInputs.svelte'
   import NumericInputs from './bindings/NumericInputs.svelte'
   import TextInputs from './bindings/TextInputs.svelte'
 </script>
@@ -16,5 +17,9 @@
   <div>
     <h2 class="section-title">Checkbox Inputs</h2>
     <CheckboxInputs />
+  </div>
+  <div>
+    <h2 class="section-title">Group Inputs</h2>
+    <GroupInputs />
   </div>
 </main>
