@@ -53,6 +53,3 @@
     </div>
   </main>
 </Router>
-
-<style>
-</style>
