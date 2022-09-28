@@ -25,7 +25,7 @@
   <select
     bind:value={selected}
     on:change={() => (answer = '')}
-    class="border-2 border-svelte outline-none rounded"
+    class="border-2 border-svelte outline-none rounded w-fit"
   >
     {#each questions as question}
       <option value={question}>
