@@ -12,7 +12,7 @@
   import TextInputs from './bindings/TextInputs.svelte'
 </script>
 
-<main class="flex flex-col gap-5">
+<main class="grid grid-cols-3 gap-10">
   <div>
     <h2 class="section-title">Text Inputs</h2>
     <TextInputs />
@@ -58,3 +58,9 @@
     <ComponentBindings />
   </div>
 </main>
+
+<style>
+  div {
+    @apply border-2 border-svelte p-6;
+  }
+</style>
