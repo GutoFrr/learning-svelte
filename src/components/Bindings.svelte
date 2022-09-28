@@ -1,4 +1,5 @@
 <script>
+  import BindingInstances from './bindings/BindingInstances.svelte'
   import CheckboxInputs from './bindings/CheckboxInputs.svelte'
   import ComponentBindings from './bindings/ComponentBindings.svelte'
   import ContentEditable from './bindings/ContentEditable.svelte'
@@ -56,6 +57,10 @@
   <div>
     <h2 class="section-title">Component Bindings</h2>
     <ComponentBindings />
+  </div>
+  <div>
+    <h2 class="section-title">Binding Instances</h2>
+    <BindingInstances />
   </div>
 </main>
 
