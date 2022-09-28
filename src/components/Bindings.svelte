@@ -1,6 +1,7 @@
 <script>
   import CheckboxInputs from './bindings/CheckboxInputs.svelte'
   import ContentEditable from './bindings/ContentEditable.svelte'
+  import EachBlockBindings from './bindings/EachBlockBindings.svelte'
   import GroupInputs from './bindings/GroupInputs.svelte'
   import NumericInputs from './bindings/NumericInputs.svelte'
   import Select from './bindings/Select.svelte'
@@ -41,5 +42,9 @@
   <div>
     <h2 class="section-title">Contenteditable Bindings</h2>
     <ContentEditable />
+  </div>
+  <div>
+    <h2 class="section-title">Each Block Bindings</h2>
+    <EachBlockBindings />
   </div>
 </main>
