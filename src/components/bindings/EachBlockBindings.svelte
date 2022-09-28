@@ -35,6 +35,3 @@
   <button on:click={add} class="btn"> add new </button>
   <button on:click={clear} class="btn">clear completed</button>
 </main>
-
-<style>
-</style>
