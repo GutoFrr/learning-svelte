@@ -1,5 +1,6 @@
 <script>
   import CheckboxInputs from './bindings/CheckboxInputs.svelte'
+  import ComponentBindings from './bindings/ComponentBindings.svelte'
   import ContentEditable from './bindings/ContentEditable.svelte'
   import Dimensions from './bindings/Dimensions.svelte'
   import EachBlockBindings from './bindings/EachBlockBindings.svelte'
@@ -51,5 +52,9 @@
   <div>
     <h2 class="section-title">Dimensions</h2>
     <Dimensions />
+  </div>
+  <div>
+    <h2 class="section-title">Component Bindings</h2>
+    <ComponentBindings />
   </div>
 </main>
