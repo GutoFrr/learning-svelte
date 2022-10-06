@@ -10,7 +10,7 @@
   const handleTick = () => (seconds += 1)
 </script>
 
-<div class="w-auto">
+<div class="w-96">
   <button on:click={toggle} class="btn">{open ? 'Close' : 'Open'} Timer</button>
   <p>
     The Timer component has been open for {seconds}
