@@ -9,7 +9,7 @@
 </script>
 
 <Router>
-  <nav class="px-10 py-3 flex items-center gap-4">
+  <nav class="w-screen px-10 py-3 flex items-center gap-4 shadow-md">
     <h1 class="text-xl font-bold">Learning Svelte!</h1>
     <Link to="/">Home</Link>
     <Link to="reactivity">Reactivity</Link>
